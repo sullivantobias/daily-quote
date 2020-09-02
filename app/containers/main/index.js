@@ -7,9 +7,7 @@ export const MainScreen = ({light}) => {
   const [quote, setQuote] = useState(null);
   const [author, setAuthor] = useState(null);
 
-  useEffect(() => {
-    getQuote();
-  });
+  useEffect(() => getQuote());
 
   const getQuote = () => {
     fetch('https://quotes.rest/qod', {
