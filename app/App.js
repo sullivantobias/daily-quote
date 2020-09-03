@@ -30,7 +30,6 @@ const App = () => {
                 ios_backgroundColor="#3e3e3e"
                 onValueChange={toggleSwitch}
                 value={isEnabled}
-                style={styles.switch}
             /> }
           <StatusBar barStyle={isEnabled ? 'dark-content' : 'light-content'} />
           <MainScreen isData={(quote, author) => quote && author && setData(true)} light={ isEnabled } />

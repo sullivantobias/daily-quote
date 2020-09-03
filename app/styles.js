@@ -9,7 +9,7 @@ export const styles = StyleSheet.create({
         width: responsiveWidth(100),
         height: responsiveHeight(100),
         display: 'flex',
-        justifyContent: 'space-around',
+        justifyContent: 'space-evenly',
         alignItems: 'center',
         backgroundColor: '#000',
     },

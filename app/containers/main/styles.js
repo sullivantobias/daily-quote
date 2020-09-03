@@ -5,6 +5,10 @@ import {
 } from 'react-native-responsive-dimensions';
 
 export const styles = StyleSheet.create({
+  container: {
+    display: 'flex',
+    alignItems: 'center'
+  },
   quote: {
     color: '#fff',
     fontSize: responsiveFontSize(3),
