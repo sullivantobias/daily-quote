@@ -10,14 +10,13 @@ export const MainScreen = ({light, isData}) => {
 
   useEffect(() => {
     isData(quote, author);
-     setTimeout(() => {
        getQuote();
+
        Animated.timing(animation, {
          toValue: 1,
          duration: 500,
          useNativeDriver: false
        }).start();
-     }, 5000);
   });
 
   const getQuote = () => {
